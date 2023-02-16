@@ -1,0 +1,295 @@
+VERSION "HIPBNYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY/4/%%%/4/'%**4YYY///"
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 2164196606 Proprietary_B__RX_usr_val: 8 Vector__XXX
+ SG_ u8_ : 0|8@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2164196862 Proprietary_B__RX_usr_str: 8 Vector__XXX
+ SG_ usrfeedbackstring : 0|8@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2565734403 Address_Claiming: 8 Vector__XXX
+ SG_ Identity_Number : 0|21@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Manufacturer_Code : 21|11@1- (1,0) [0|0] "" Vector__XXX
+ SG_ ECU_Instance : 32|3@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Function_Instance : 35|5@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Function : 40|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ reserved : 48|1@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Vehicle_System : 49|7@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Vehicle_System_Instance : 56|4@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Industry_Group : 60|3@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Addr_Claiming_Supported : 63|1@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2365445635 BJM1_Basic_Joystick_Message_1: 8 Vector__XXX
+ SG_ Joystick_1_X_Axis_Neutral_Position_Status : 0|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_X_Axis_Lever_Left_Negative_Position_Status : 2|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_X_Axis_Lever_Right_Positive_Position_Status : 4|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_X_Axis_Position : 6|10@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_Y_Axis_Neutral_Position_Status : 16|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_Y_Axis_Lever_Back_Negative_Position_Status : 18|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_Y_Axis_Lever_Forward_Positive_Position_Status : 20|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_Y_Axis_Position : 22|10@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_Y_Axis_Detent_Position_Status : 36|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_X_Axis_Detent_Position_Status : 38|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_Button_4_Pressed_Status : 40|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_Button_3_Pressed_Status : 42|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_Button_2_Pressed_Status : 44|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_Button_1_Pressed_Status : 46|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_Button_8_Pressed_Status : 48|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_Button_7_Pressed_Status : 50|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_Button_6_Pressed_Status : 52|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_Button_5_Pressed_Status : 54|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_Button_12_Pressed_Status : 56|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_Button_11_Pressed_Status : 58|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_Button_10_Pressed_Status : 60|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_Button_9_Pressed_Status : 62|2@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2365445891 EJM1_Extended_Joystick_Message_1: 8 Vector__XXX
+ SG_ Joystick_1_Grip_X_Axis_Neutral_Position_Status : 0|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_Grip_X_Axis_Lever_Left_Negative_Position_Status : 2|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_Grip_X_Axis_Lever_Right_Positive_Position_Status : 4|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_Grip_X_Axis_Position : 6|10@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_Grip_Y_Axis_Neutral_Position_Status : 16|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_Grip_Y_Axis_Lever_Back_Negative_Position_Status : 18|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_Grip_Y_Axis_Lever_Forward_Positive_Position_Status : 20|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_Grip_Y_Axis_Position : 22|10@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_Theta_Axis_Neutral_Position_Status : 32|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_Theta_Axis_Counter_Clockwise_Negative_Position_Status : 34|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_Theta_Axis_Clockwise_Positive_Position_Status : 36|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_Theta_Axis_Position : 38|10@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_Theta_Axis_Detent_Position_Status : 50|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_Grip_Y_Axis_Detent_Position_Status : 52|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_Grip_X_Axis_Detent_Position_Status : 54|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_Button_16_Pressed_Status : 56|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_Button_15_Pressed_Status : 58|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_Button_14_Pressed_Status : 60|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_1_Button_13_Pressed_Status : 62|2@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2365446147 BJM2_Basic_Joystick_Message_2: 8 Vector__XXX
+ SG_ Joystick_2_X_Axis_Neutral_Position_Status : 0|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_X_Axis_Lever_Left_Negative_Position_Status : 2|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_X_Axis_Lever_Right_Positive_Position_Status : 4|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_X_Axis_Position : 6|10@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_Y_Axis_Neutral_Position_Status : 16|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_Y_Axis_Lever_Back_Negative_Position_Status : 18|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_Y_Axis_Lever_Forward_Positive_Position_Status : 20|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_Y_Axis_Position : 22|10@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_Y_Axis_Detent_Position_Status : 36|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_X_Axis_Detent_Position_Status : 38|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_Button_4_Pressed_Status : 40|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_Button_3_Pressed_Status : 42|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_Button_2_Pressed_Status : 44|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_Button_1_Pressed_Status : 46|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_Button_8_Pressed_Status : 48|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_Button_7_Pressed_Status : 50|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_Button_6_Pressed_Status : 52|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_Button_5_Pressed_Status : 54|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_Button_12_Pressed_Status : 56|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_Button_11_Pressed_Status : 58|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_Button_10_Pressed_Status : 60|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_Button_9_Pressed_Status : 62|2@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2365446403 EJM2_Extended_Joystick_Message_2: 8 Vector__XXX
+ SG_ Joystick_2_Grip_X_Axis_Neutral_Position_Status : 0|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_Grip_X_Axis_Lever_Left_Negative_Position_Status : 2|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_Grip_X_Axis_Lever_Right_Positive_Position_Status : 4|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_Grip_X_Axis_Position : 6|10@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_Grip_Y_Axis_Neutral_Position_Status : 16|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_Grip_Y_Axis_Lever_Back_Negative_Position_Status : 18|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_Grip_Y_Axis_Lever_Forward_Positive_Position_Status : 20|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_Grip_Y_Axis_Position : 22|10@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_Theta_Axis_Neutral_Position_Status : 32|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_Theta_Axis_Counter_Clockwise_Negative_Position_Status : 34|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_Theta_Axis_Clockwise_Positive_Position_Status : 36|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_Theta_Axis_Position : 38|10@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_Theta_Axis_Detent_Position_Status : 50|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_Grip_Y_Axis_Detent_Position_Status : 52|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_Grip_X_Axis_Detent_Position_Status : 54|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_Button_16_Pressed_Status : 56|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_Button_15_Pressed_Status : 58|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_Button_14_Pressed_Status : 60|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Joystick_2_Button_13_Pressed_Status : 62|2@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2164195331 Proprietary_B_Tx_Heartbeat: 8 Vector__XXX
+ SG_ u8_1 : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ u8_2 : 8|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ u8_3 : 16|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ u8_4 : 24|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ u8_5 : 32|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ u8_6 : 40|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ u8_7 : 48|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ u8_8 : 56|8@1- (1,0) [0|0] "" Vector__XXX
+
+
+CM_ BO_ 2565734403 "This PGN is used to send the Address Claiming.";
+BA_DEF_  "ProtocolType" STRING ;
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 3600000;
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "cyclic","reserved","cyclicIfActive","reserved","reserved","reserved","reserved","reserved","noMsgSendType";
+BA_DEF_ SG_  "SigType" ENUM  "Default","Range","RangeSigned","ASCII","Discrete","Control","ReferencePGN","DTC","StringDelimiter","StringLength","StringLengthControl";
+BA_DEF_ BO_  "VFrameFormat" ENUM  "StandardCAN","ExtendedCAN","reserved","J1939PG";
+BA_DEF_ SG_  "SPN" INT 0 524287;
+BA_DEF_ SG_  "emotas_bitsize" INT 0 5120;
+BA_DEF_DEF_  "ProtocolType" "";
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "GenMsgSendType" "noMsgSendType";
+BA_DEF_DEF_  "SigType" "Default";
+BA_DEF_DEF_  "VFrameFormat" "J1939PG";
+BA_DEF_DEF_  "SPN" 0;
+BA_DEF_DEF_  "emotas_bitsize" 64;
+BA_ "VFrameFormat" BO_ 2164196606 3;
+BA_ "GenMsgSendType" BO_ 2164196606 8;
+BA_ "emotas_bitsize" SG_ 2164196606 u8_ 64;
+BA_ "SPN" SG_ 2164196606 u8_ 999;
+BA_ "SigType" SG_ 2164196606 u8_ 8;
+BA_ "VFrameFormat" BO_ 2164196862 3;
+BA_ "GenMsgSendType" BO_ 2164196862 8;
+BA_ "emotas_bitsize" SG_ 2164196862 usrfeedbackstring 64;
+BA_ "SPN" SG_ 2164196862 usrfeedbackstring 101;
+BA_ "SigType" SG_ 2164196862 usrfeedbackstring 8;
+BA_ "VFrameFormat" BO_ 2565734403 3;
+BA_ "GenMsgSendType" BO_ 2565734403 8;
+BA_ "SPN" SG_ 2565734403 Identity_Number 2837;
+BA_ "SPN" SG_ 2565734403 Manufacturer_Code 2838;
+BA_ "SPN" SG_ 2565734403 ECU_Instance 2840;
+BA_ "SPN" SG_ 2565734403 Function_Instance 2839;
+BA_ "SPN" SG_ 2565734403 Function 2841;
+BA_ "SPN" SG_ 2565734403 reserved 0;
+BA_ "SPN" SG_ 2565734403 Vehicle_System 2842;
+BA_ "SPN" SG_ 2565734403 Vehicle_System_Instance 2843;
+BA_ "SPN" SG_ 2565734403 Industry_Group 2846;
+BA_ "SPN" SG_ 2565734403 Addr_Claiming_Supported 2844;
+BA_ "VFrameFormat" BO_ 2365445635 3;
+BA_ "GenMsgSendType" BO_ 2365445635 8;
+BA_ "SPN" SG_ 2365445635 Joystick_1_X_Axis_Neutral_Position_Status 2675;
+BA_ "SPN" SG_ 2365445635 Joystick_1_X_Axis_Lever_Left_Negative_Position_Status 2670;
+BA_ "SPN" SG_ 2365445635 Joystick_1_X_Axis_Lever_Right_Positive_Position_Status 2665;
+BA_ "SPN" SG_ 2365445635 Joystick_1_X_Axis_Position 2660;
+BA_ "SPN" SG_ 2365445635 Joystick_1_Y_Axis_Neutral_Position_Status 2676;
+BA_ "SPN" SG_ 2365445635 Joystick_1_Y_Axis_Lever_Back_Negative_Position_Status 2671;
+BA_ "SPN" SG_ 2365445635 Joystick_1_Y_Axis_Lever_Forward_Positive_Position_Status 2666;
+BA_ "SPN" SG_ 2365445635 Joystick_1_Y_Axis_Position 2661;
+BA_ "SPN" SG_ 2365445635 Joystick_1_Y_Axis_Detent_Position_Status 2681;
+BA_ "SPN" SG_ 2365445635 Joystick_1_X_Axis_Detent_Position_Status 2680;
+BA_ "SPN" SG_ 2365445635 Joystick_1_Button_4_Pressed_Status 2688;
+BA_ "SPN" SG_ 2365445635 Joystick_1_Button_3_Pressed_Status 2687;
+BA_ "SPN" SG_ 2365445635 Joystick_1_Button_2_Pressed_Status 2686;
+BA_ "SPN" SG_ 2365445635 Joystick_1_Button_1_Pressed_Status 2685;
+BA_ "SPN" SG_ 2365445635 Joystick_1_Button_8_Pressed_Status 2692;
+BA_ "SPN" SG_ 2365445635 Joystick_1_Button_7_Pressed_Status 2691;
+BA_ "SPN" SG_ 2365445635 Joystick_1_Button_6_Pressed_Status 2690;
+BA_ "SPN" SG_ 2365445635 Joystick_1_Button_5_Pressed_Status 2689;
+BA_ "SPN" SG_ 2365445635 Joystick_1_Button_12_Pressed_Status 2696;
+BA_ "SPN" SG_ 2365445635 Joystick_1_Button_11_Pressed_Status 2695;
+BA_ "SPN" SG_ 2365445635 Joystick_1_Button_10_Pressed_Status 2694;
+BA_ "SPN" SG_ 2365445635 Joystick_1_Button_9_Pressed_Status 2693;
+BA_ "VFrameFormat" BO_ 2365445891 3;
+BA_ "GenMsgSendType" BO_ 2365445891 8;
+BA_ "SPN" SG_ 2365445891 Joystick_1_Grip_X_Axis_Neutral_Position_Status 2677;
+BA_ "SPN" SG_ 2365445891 Joystick_1_Grip_X_Axis_Lever_Left_Negative_Position_Status 2672;
+BA_ "SPN" SG_ 2365445891 Joystick_1_Grip_X_Axis_Lever_Right_Positive_Position_Status 2667;
+BA_ "SPN" SG_ 2365445891 Joystick_1_Grip_X_Axis_Position 2662;
+BA_ "SPN" SG_ 2365445891 Joystick_1_Grip_Y_Axis_Neutral_Position_Status 2678;
+BA_ "SPN" SG_ 2365445891 Joystick_1_Grip_Y_Axis_Lever_Back_Negative_Position_Status 2673;
+BA_ "SPN" SG_ 2365445891 Joystick_1_Grip_Y_Axis_Lever_Forward_Positive_Position_Status 2668;
+BA_ "SPN" SG_ 2365445891 Joystick_1_Grip_Y_Axis_Position 2663;
+BA_ "SPN" SG_ 2365445891 Joystick_1_Theta_Axis_Neutral_Position_Status 2679;
+BA_ "SPN" SG_ 2365445891 Joystick_1_Theta_Axis_Counter_Clockwise_Negative_Position_Status 2674;
+BA_ "SPN" SG_ 2365445891 Joystick_1_Theta_Axis_Clockwise_Positive_Position_Status 2669;
+BA_ "SPN" SG_ 2365445891 Joystick_1_Theta_Axis_Position 2664;
+BA_ "SPN" SG_ 2365445891 Joystick_1_Theta_Axis_Detent_Position_Status 2684;
+BA_ "SPN" SG_ 2365445891 Joystick_1_Grip_Y_Axis_Detent_Position_Status 2683;
+BA_ "SPN" SG_ 2365445891 Joystick_1_Grip_X_Axis_Detent_Position_Status 2682;
+BA_ "SPN" SG_ 2365445891 Joystick_1_Button_16_Pressed_Status 6734;
+BA_ "SPN" SG_ 2365445891 Joystick_1_Button_15_Pressed_Status 6733;
+BA_ "SPN" SG_ 2365445891 Joystick_1_Button_14_Pressed_Status 6732;
+BA_ "SPN" SG_ 2365445891 Joystick_1_Button_13_Pressed_Status 6731;
+BA_ "VFrameFormat" BO_ 2365446147 3;
+BA_ "GenMsgSendType" BO_ 2365446147 8;
+BA_ "SPN" SG_ 2365446147 Joystick_2_X_Axis_Neutral_Position_Status 2712;
+BA_ "SPN" SG_ 2365446147 Joystick_2_X_Axis_Lever_Left_Negative_Position_Status 2707;
+BA_ "SPN" SG_ 2365446147 Joystick_2_X_Axis_Lever_Right_Positive_Position_Status 2702;
+BA_ "SPN" SG_ 2365446147 Joystick_2_X_Axis_Position 2697;
+BA_ "SPN" SG_ 2365446147 Joystick_2_Y_Axis_Neutral_Position_Status 2713;
+BA_ "SPN" SG_ 2365446147 Joystick_2_Y_Axis_Lever_Back_Negative_Position_Status 2708;
+BA_ "SPN" SG_ 2365446147 Joystick_2_Y_Axis_Lever_Forward_Positive_Position_Status 2703;
+BA_ "SPN" SG_ 2365446147 Joystick_2_Y_Axis_Position 2698;
+BA_ "SPN" SG_ 2365446147 Joystick_2_Y_Axis_Detent_Position_Status 2718;
+BA_ "SPN" SG_ 2365446147 Joystick_2_X_Axis_Detent_Position_Status 2717;
+BA_ "SPN" SG_ 2365446147 Joystick_2_Button_4_Pressed_Status 2725;
+BA_ "SPN" SG_ 2365446147 Joystick_2_Button_3_Pressed_Status 2724;
+BA_ "SPN" SG_ 2365446147 Joystick_2_Button_2_Pressed_Status 2723;
+BA_ "SPN" SG_ 2365446147 Joystick_2_Button_1_Pressed_Status 2722;
+BA_ "SPN" SG_ 2365446147 Joystick_2_Button_8_Pressed_Status 2729;
+BA_ "SPN" SG_ 2365446147 Joystick_2_Button_7_Pressed_Status 2728;
+BA_ "SPN" SG_ 2365446147 Joystick_2_Button_6_Pressed_Status 2727;
+BA_ "SPN" SG_ 2365446147 Joystick_2_Button_5_Pressed_Status 2726;
+BA_ "SPN" SG_ 2365446147 Joystick_2_Button_12_Pressed_Status 2733;
+BA_ "SPN" SG_ 2365446147 Joystick_2_Button_11_Pressed_Status 2732;
+BA_ "SPN" SG_ 2365446147 Joystick_2_Button_10_Pressed_Status 2731;
+BA_ "SPN" SG_ 2365446147 Joystick_2_Button_9_Pressed_Status 2730;
+BA_ "VFrameFormat" BO_ 2365446403 3;
+BA_ "GenMsgSendType" BO_ 2365446403 8;
+BA_ "SPN" SG_ 2365446403 Joystick_2_Grip_X_Axis_Neutral_Position_Status 2714;
+BA_ "SPN" SG_ 2365446403 Joystick_2_Grip_X_Axis_Lever_Left_Negative_Position_Status 2709;
+BA_ "SPN" SG_ 2365446403 Joystick_2_Grip_X_Axis_Lever_Right_Positive_Position_Status 2704;
+BA_ "SPN" SG_ 2365446403 Joystick_2_Grip_X_Axis_Position 2699;
+BA_ "SPN" SG_ 2365446403 Joystick_2_Grip_Y_Axis_Neutral_Position_Status 2715;
+BA_ "SPN" SG_ 2365446403 Joystick_2_Grip_Y_Axis_Lever_Back_Negative_Position_Status 2710;
+BA_ "SPN" SG_ 2365446403 Joystick_2_Grip_Y_Axis_Lever_Forward_Positive_Position_Status 2705;
+BA_ "SPN" SG_ 2365446403 Joystick_2_Grip_Y_Axis_Position 2700;
+BA_ "SPN" SG_ 2365446403 Joystick_2_Theta_Axis_Neutral_Position_Status 2716;
+BA_ "SPN" SG_ 2365446403 Joystick_2_Theta_Axis_Counter_Clockwise_Negative_Position_Status 2711;
+BA_ "SPN" SG_ 2365446403 Joystick_2_Theta_Axis_Clockwise_Positive_Position_Status 2706;
+BA_ "SPN" SG_ 2365446403 Joystick_2_Theta_Axis_Position 2701;
+BA_ "SPN" SG_ 2365446403 Joystick_2_Theta_Axis_Detent_Position_Status 2721;
+BA_ "SPN" SG_ 2365446403 Joystick_2_Grip_Y_Axis_Detent_Position_Status 2720;
+BA_ "SPN" SG_ 2365446403 Joystick_2_Grip_X_Axis_Detent_Position_Status 2719;
+BA_ "SPN" SG_ 2365446403 Joystick_2_Button_16_Pressed_Status 6738;
+BA_ "SPN" SG_ 2365446403 Joystick_2_Button_15_Pressed_Status 6737;
+BA_ "SPN" SG_ 2365446403 Joystick_2_Button_14_Pressed_Status 6736;
+BA_ "SPN" SG_ 2365446403 Joystick_2_Button_13_Pressed_Status 6735;
+BA_ "VFrameFormat" BO_ 2164195331 3;
+BA_ "GenMsgSendType" BO_ 2164195331 8;
+BA_ "SPN" SG_ 2164195331 u8_1 999;
+BA_ "SPN" SG_ 2164195331 u8_2 998;
+BA_ "SPN" SG_ 2164195331 u8_3 997;
+BA_ "SPN" SG_ 2164195331 u8_4 996;
+BA_ "SPN" SG_ 2164195331 u8_5 995;
+BA_ "SPN" SG_ 2164195331 u8_6 994;
+BA_ "SPN" SG_ 2164195331 u8_7 993;
+BA_ "SPN" SG_ 2164195331 u8_8 992;
+BA_ "ProtocolType" "J1939";

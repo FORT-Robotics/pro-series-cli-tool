@@ -1,0 +1,1018 @@
+[FileInfo]
+CreatedBy=shashank
+ModifiedBy=shashank
+Description=CANOpen Generic Slave which supports FRC(Keypad, Jostick, Display) and EPC Heart-beat Messages
+CreationTime=02:00PM
+CreationDate=08-05-2022
+ModificationTime=02:00PM
+ModificationDate=08-05-2022
+FileName=canopen-generic-slave.eds
+FileVersion=1
+FileRevision=0
+EDSVersion=4.0
+
+[DeviceInfo]
+VendorName=FORT Robotics, Inc.
+VendorNumber=0x000004CA
+ProductName=FRC Joystick
+ProductNumber=0x01
+RevisionNumber=0x01
+BaudRate_10=1
+BaudRate_20=1
+BaudRate_50=1
+BaudRate_125=1
+BaudRate_250=1
+BaudRate_500=1
+BaudRate_800=1
+BaudRate_1000=1
+SimpleBootUpMaster=0
+SimpleBootUpSlave=1
+Granularity=1
+DynamicChannelsSupported=0
+CompactPDO=0
+GroupMessaging=0
+NrOfRXPDO=2
+NrOfTXPDO=4
+LSS_Supported=1
+
+[DummyUsage]
+Dummy0001=0
+Dummy0002=0
+Dummy0003=0
+Dummy0004=0
+Dummy0005=0
+Dummy0006=0
+Dummy0007=0
+
+[Comments]
+Lines=0
+
+[MandatoryObjects]
+SupportedObjects=3
+1=0x1000
+2=0x1001
+3=0x1018
+
+[1000]
+ParameterName=Device Type
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+PDOMapping=0
+
+[1001]
+ParameterName=Error register
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+PDOMapping=0
+
+[1018]
+ParameterName=Identity object
+ObjectType=0x9
+SubNumber=5
+
+[1018sub0]
+ParameterName=Highest sub-index supported
+DataType=0x0005
+AccessType=ro
+DefaultValue=4
+PDOMapping=0
+
+[1018sub1]
+ParameterName=Vendor-ID
+DataType=0x0007
+AccessType=ro
+DefaultValue=0x000004CA
+PDOMapping=0
+
+[1018sub2]
+ParameterName=Product code
+DataType=0x0007
+AccessType=ro
+DefaultValue=0x01
+PDOMapping=0
+
+[1018sub3]
+ParameterName=Revision number
+DataType=0x0007
+AccessType=ro
+DefaultValue=0x01
+PDOMapping=0
+
+[1018sub4]
+ParameterName=Serial number
+DataType=0x0007
+AccessType=ro
+
+[OptionalObjects]
+SupportedObjects=23
+1=0x1003
+2=0x1005
+3=0x1011
+4=0x1014
+5=0x1015
+6=0x1016
+7=0x1017
+8=0x1029
+9=0x1400
+10=0x1401
+11=0x1600
+12=0x1601
+13=0x1800
+14=0x1801
+15=0x1802
+16=0x1803
+17=0x1A00
+18=0x1A01
+19=0x1A02
+20=0x1A03
+21=0x1F80
+22=0x6000
+23=0x6401
+
+[1003]
+ParameterName=Predefined Error Field
+ObjectType=0x8
+SubNumber=5
+
+[1003sub0]
+ParameterName=Number of Errors
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+DefaultValue=0
+PDOMapping=0
+
+[1003sub1]
+ParameterName=Standard Error Field
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=0
+PDOMapping=0
+
+[1003sub2]
+ParameterName=Standard Error Field_2
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=0
+PDOMapping=0
+
+[1003sub3]
+ParameterName=Standard Error Field_3
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=0
+PDOMapping=0
+
+[1003sub4]
+ParameterName=Standard Error Field_4
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=0
+PDOMapping=0
+
+[1005]
+ParameterName=COB-ID SYNC message
+DataType=0x0007
+AccessType=ro
+DefaultValue=0x00000080
+PDOMapping=0
+
+[1011]
+ParameterName=Restore Default Parameters
+ObjectType=0x8
+SubNumber=2
+
+[1011sub0]
+ParameterName=Number of entries
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+DefaultValue=1
+PDOMapping=0
+LowLimit=0x0
+HighLimit=0x7F
+
+[1011sub1]
+ParameterName=Restore all Default Parameters
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[1014]
+ParameterName=COB-ID EMCY
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=$NODEID+0x80
+PDOMapping=0
+
+[1015]
+ParameterName=Inhibit time EMCY
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[1016]
+ParameterName=Consumer Heartbeat Time
+ObjectType=0x8
+SubNumber=5
+
+[1016sub0]
+ParameterName=Number of entries
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+DefaultValue=4
+PDOMapping=0
+LowLimit=0x1
+
+[1016sub1]
+ParameterName=Consumer Heartbeat Time
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[1016sub2]
+ParameterName=Consumer Heartbeat Time_2
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[1016sub3]
+ParameterName=Consumer Heartbeat Time_3
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[1016sub4]
+ParameterName=Consumer Heartbeat Time_4
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[1017]
+ParameterName=Producer Heartbeat Time
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=100
+PDOMapping=0
+
+[1029]
+ParameterName=Error behaviour
+ObjectType=0x8
+SubNumber=3
+
+[1029sub0]
+ParameterName=Nr of Error Classes
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+DefaultValue=2
+PDOMapping=0
+
+[1029sub1]
+ParameterName=Communication Error
+ObjectType=0x7
+DataType=0x0005
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[1029sub2]
+ParameterName=Specific Error Class
+ObjectType=0x7
+DataType=0x0005
+AccessType=rw
+PDOMapping=0
+
+[1400]
+ParameterName=FRC Settings RPDO
+ObjectType=0x9
+SubNumber=6
+
+[1400sub0]
+ParameterName=Number of entries
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+DefaultValue=5
+PDOMapping=0
+
+[1400sub1]
+ParameterName=COB ID
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=$NODEID+0x200
+PDOMapping=0
+LowLimit=0x00000001
+HighLimit=0xFFFFFFFF
+
+[1400sub2]
+ParameterName=Transmission Type
+ObjectType=0x7
+DataType=0x0005
+AccessType=rw
+DefaultValue=255
+PDOMapping=0
+
+[1400sub3]
+ParameterName=Inhibit Time
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=0x0000
+PDOMapping=0
+
+[1400sub4]
+ParameterName=Compatibility Entry
+ObjectType=0x7
+DataType=0x0005
+AccessType=rw
+PDOMapping=0
+
+[1400sub5]
+ParameterName=Event Timer
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[1401]
+ParameterName=Display Text RPDO
+ObjectType=0x9
+SubNumber=6
+
+[1401sub0]
+ParameterName=Number of entries
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+DefaultValue=5
+PDOMapping=0
+
+[1401sub1]
+ParameterName=COB ID
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=$NODEID+0x300
+PDOMapping=0
+LowLimit=0x00000001
+HighLimit=0xFFFFFFFF
+
+[1401sub2]
+ParameterName=Transmission Type
+ObjectType=0x7
+DataType=0x0005
+AccessType=rw
+DefaultValue=255
+PDOMapping=0
+
+[1401sub3]
+ParameterName=Inhibit Time
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=0x0000
+PDOMapping=0
+
+[1401sub4]
+ParameterName=Compatibility Entry
+ObjectType=0x7
+DataType=0x0005
+AccessType=rw
+PDOMapping=0
+
+[1401sub5]
+ParameterName=Event Timer
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[1600]
+ParameterName=RPDO Mapping Parameter for FRC Settings
+ObjectType=0x9
+SubNumber=2
+
+[1600sub0]
+ParameterName=Number of entries
+ObjectType=0x7
+DataType=0x0005
+AccessType=rw
+DefaultValue=1
+PDOMapping=0
+LowLimit=0
+HighLimit=8
+
+[1600sub1]
+ParameterName=PDO Mapping Entry
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=0x20000140
+PDOMapping=1
+
+[1601]
+ParameterName=RPDO Mapping Parameter Display Text
+ObjectType=0x9
+SubNumber=2
+
+[1601sub0]
+ParameterName=Number of entries
+ObjectType=0x7
+DataType=0x0005
+AccessType=rw
+DefaultValue=1
+PDOMapping=0
+LowLimit=0
+HighLimit=8
+
+[1601sub1]
+ParameterName=PDO Mapping Entry
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=0x20010140
+PDOMapping=1
+
+[1800]
+ParameterName=Keypad TPDO
+ObjectType=0x9
+SubNumber=7
+
+[1800sub0]
+ParameterName=Number of entries
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+DefaultValue=6
+PDOMapping=0
+LowLimit=0x02
+HighLimit=0x06
+
+[1800sub1]
+ParameterName=COB ID
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=$NODEID+0x180
+PDOMapping=0
+LowLimit=0x00000001
+HighLimit=0xFFFFFFFF
+
+[1800sub2]
+ParameterName=Transmission Type
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+DefaultValue=255
+PDOMapping=0
+
+[1800sub3]
+ParameterName=Inhibit Time
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=0x0000
+PDOMapping=0
+
+[1800sub4]
+ParameterName=Compatibility Entry
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+PDOMapping=0
+
+[1800sub5]
+ParameterName=Event Timer
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[1800sub6]
+ParameterName=SYNC start value
+ObjectType=0x7
+DataType=0x0005
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[1801]
+ParameterName=Joystick Axis TPDO
+ObjectType=0x9
+SubNumber=7
+
+[1801sub0]
+ParameterName=Number of entries
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+DefaultValue=6
+PDOMapping=0
+LowLimit=0x02
+HighLimit=0x06
+
+[1801sub1]
+ParameterName=COB ID
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=$NODEID+0x280
+PDOMapping=0
+LowLimit=0x00000001
+HighLimit=0xFFFFFFFF
+
+[1801sub2]
+ParameterName=Transmission Type
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+DefaultValue=255
+PDOMapping=0
+
+[1801sub3]
+ParameterName=Inhibit Time
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=0x0000
+PDOMapping=0
+
+[1801sub4]
+ParameterName=Compatibility Entry
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+PDOMapping=0
+
+[1801sub5]
+ParameterName=Event Timer
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[1801sub6]
+ParameterName=SYNC start value
+ObjectType=0x7
+DataType=0x0005
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[1802]
+ParameterName=Joystick Trigger TPDO
+ObjectType=0x9
+SubNumber=7
+
+[1802sub0]
+ParameterName=Number of entries
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+DefaultValue=6
+PDOMapping=0
+LowLimit=0x02
+HighLimit=0x06
+
+[1802sub1]
+ParameterName=COB ID
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=$NODEID+0x380
+PDOMapping=0
+LowLimit=0x00000001
+HighLimit=0xFFFFFFFF
+
+[1802sub2]
+ParameterName=Transmission Type
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+DefaultValue=255
+PDOMapping=0
+
+[1802sub3]
+ParameterName=Inhibit Time
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=0x0000
+PDOMapping=0
+
+[1802sub4]
+ParameterName=Compatibility Entry
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+PDOMapping=0
+
+[1802sub5]
+ParameterName=Event Timer
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[1802sub6]
+ParameterName=SYNC start value
+ObjectType=0x7
+DataType=0x0005
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[1803]
+ParameterName=EPC heartbeat TPDO
+ObjectType=0x9
+SubNumber=7
+
+[1803sub0]
+ParameterName=Number of entries
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+DefaultValue=6
+PDOMapping=0
+LowLimit=0x02
+HighLimit=0x06
+
+[1803sub1]
+ParameterName=COB ID
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=$NODEID+0x480
+PDOMapping=0
+LowLimit=0x00000001
+HighLimit=0xFFFFFFFF
+
+[1803sub2]
+ParameterName=Transmission Type
+ObjectType=0x7
+DataType=0x0005
+AccessType=rw
+DefaultValue=255
+PDOMapping=0
+
+[1803sub3]
+ParameterName=Inhibit Time
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=0x0000
+PDOMapping=0
+
+[1803sub4]
+ParameterName=Compatibility Entry
+ObjectType=0x7
+DataType=0x0005
+AccessType=rw
+PDOMapping=0
+
+[1803sub5]
+ParameterName=Event Timer
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[1803sub6]
+ParameterName=SYNC start value
+ObjectType=0x7
+DataType=0x0005
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[1A00]
+ParameterName=TPDO Mapping Parameter for Keypad
+ObjectType=0x9
+SubNumber=4
+
+[1A00sub0]
+ParameterName=Number of entries
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+DefaultValue=3
+PDOMapping=0
+LowLimit=0
+HighLimit=8
+
+[1A00sub1]
+ParameterName=Memory buttons
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=0x60000108
+PDOMapping=0
+
+[1A00sub2]
+ParameterName=Left Keypad & Menu
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=0x60000208
+PDOMapping=0
+
+[1A00sub3]
+ParameterName=Right Keypad & Pause
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=0x60000308
+PDOMapping=0
+
+[1A01]
+ParameterName=TPDO Mapping Parameter for Joystick Axis
+ObjectType=0x9
+SubNumber=5
+
+[1A01sub0]
+ParameterName=Number of entries
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+DefaultValue=4
+PDOMapping=0
+LowLimit=0
+HighLimit=8
+
+[1A01sub1]
+ParameterName=Left Stick X
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=0x64010110
+PDOMapping=0
+
+[1A01sub2]
+ParameterName=Left Stick Y
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=0x64010210
+PDOMapping=0
+
+[1A01sub3]
+ParameterName=Right Stick X
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=0x64010310
+PDOMapping=0
+
+[1A01sub4]
+ParameterName=Right Stick Y
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=0x64010410
+PDOMapping=0
+
+[1A02]
+ParameterName=TPDO Mapping Parameter for Joystick Trigger
+ObjectType=0x9
+SubNumber=3
+
+[1A02sub0]
+ParameterName=Number of entries
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+DefaultValue=2
+PDOMapping=0
+LowLimit=0
+HighLimit=8
+
+[1A02sub1]
+ParameterName=Left Stick Z
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=0x64010510
+PDOMapping=0
+
+[1A02sub2]
+ParameterName=Right Stick Z
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=0x64010610
+PDOMapping=0
+
+[1A03]
+ParameterName=TPDO Mapping Parameter EPC heartbeat
+ObjectType=0x9
+SubNumber=2
+
+[1A03sub0]
+ParameterName=Number of entries
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+DefaultValue=1
+PDOMapping=0
+LowLimit=0
+HighLimit=8
+
+[1A03sub1]
+ParameterName=PDO Mapping Entry
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=0x30000140
+PDOMapping=1
+
+[1F80]
+ParameterName=NMTStartup
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=0x04
+PDOMapping=0
+
+[6000]
+ParameterName=Keypad Mapping Object
+ObjectType=0x8
+SubNumber=4
+
+[6000sub0]
+ParameterName=Number of Elements
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+DefaultValue=3
+PDOMapping=0
+
+[6000sub1]
+ParameterName=Memory buttons
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+PDOMapping=1
+
+[6000sub2]
+ParameterName=Left Keypad & Menu
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+PDOMapping=1
+
+[6000sub3]
+ParameterName=Right Keypad & Pause
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+PDOMapping=1
+
+[6401]
+ParameterName=Joystick Mapping Object
+ObjectType=0x8
+SubNumber=7
+
+[6401sub0]
+ParameterName=Number of Elements
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+DefaultValue=6
+PDOMapping=0
+
+[6401sub1]
+ParameterName=Left Stick X
+ObjectType=0x7
+DataType=0x0003
+AccessType=ro
+PDOMapping=1
+
+[6401sub2]
+ParameterName=Left Stick Y
+ObjectType=0x7
+DataType=0x0003
+AccessType=ro
+PDOMapping=1
+
+[6401sub3]
+ParameterName=Right Stick X
+ObjectType=0x7
+DataType=0x0003
+AccessType=ro
+PDOMapping=1
+
+[6401sub4]
+ParameterName=Right Stick Y
+ObjectType=0x7
+DataType=0x0003
+AccessType=ro
+PDOMapping=1
+
+[6401sub5]
+ParameterName=Left Stick Z
+ObjectType=0x7
+DataType=0x0003
+AccessType=ro
+PDOMapping=1
+
+[6401sub6]
+ParameterName=Right Stick Z
+ObjectType=0x7
+DataType=0x0003
+AccessType=ro
+PDOMapping=1
+
+[ManufacturerObjects]
+SupportedObjects=3
+1=0x2000
+2=0x2001
+3=0x3000
+
+[2000]
+ParameterName=FRC Settings Mapping Object
+ObjectType=0x9
+SubNumber=2
+
+[2000sub0]
+ParameterName=Number of Elements
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+DefaultValue=1
+PDOMapping=0
+
+[2000sub1]
+ParameterName=FRC Setting Data
+ObjectType=0x7
+DataType=0x000a
+AccessType=rw
+PDOMapping=1
+
+[2001]
+ParameterName=Display Text Mapping Object
+ObjectType=0x9
+SubNumber=2
+
+[2001sub0]
+ParameterName=Number of Elements
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+DefaultValue=1
+PDOMapping=0
+
+[2001sub1]
+ParameterName=Display Text Data
+ObjectType=0x7
+DataType=0x000a
+AccessType=rw
+PDOMapping=1
+
+[3000]
+ParameterName=EPC Heartbeat Mapping Object
+ObjectType=0x9
+SubNumber=2
+
+[3000sub0]
+ParameterName=Number of Elements
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+DefaultValue=1
+PDOMapping=0
+
+[3000sub1]
+ParameterName=EPC Heartbeat Data
+ObjectType=0x7
+DataType=0x000a
+AccessType=ro
+PDOMapping=1
